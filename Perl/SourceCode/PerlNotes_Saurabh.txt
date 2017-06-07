@@ -1,0 +1,7 @@
+You can use a -d file test operator to check if something is a directory. Here's some of the commonly useful file test operators
+-e  File exists.
+-z  File has zero size (is empty).
+-s  File has nonzero size (returns size in bytes).
+-f  File is a plain file.
+-d  File is a directory.
+-l  File is a symbolic link.

@@ -1,0 +1,11 @@
+sigil - prefixes (scalar -$, array - @, hash - %)
+scalar can hold only one value
+Hash cannot be interpolated in any circumstance....
+Hash retrieval will never be in order, because it dumps the data like a heap, and this is the reason why hash cannot be interpolated
+
+
+Questions:
+Why we use my?
+Why we use strict?
+Why we use warnings?
+Why is comparison <=> spaceship operator used?
